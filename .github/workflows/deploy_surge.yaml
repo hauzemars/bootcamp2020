@@ -32,7 +32,7 @@ jobs:
         run: npm install -g surge
         
       - name: Run Surge
-        run: surge./ bootycamp699.suge.sh --token${{secret.SURGE_TOKEN}}
+        run: surge./ bootycamp699.suge.sh --token${{secrets.SURGE_TOKEN}}
  
  
  
